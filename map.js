@@ -43,7 +43,6 @@ const map = function(arr, callback) {
 const words = ["ground", "control", "to", "major", "tom"];
 
 const results1 = map(words, word => word[0]);
-//console.log(results1);
-//console.log(assertArraysEqual(map(words, word => word[0]),results1))
-console.log(assertEqual(map(words, word => word[0]),results1))
- //console.log(eqArrays(map(words, word => word[0]),results1))
+console.log(results1);
+console.log(assertArraysEqual(map(words, word => word[0]),results1))
+ console.log(eqArrays(map(words, word => word[0]),results1))
