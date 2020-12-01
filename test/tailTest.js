@@ -1,6 +1,12 @@
-const assertEqual = require('../assertEqual');
 const tail = require('../tail');
+//mocha chai assertions
+const assert = require('chai').assert;
 
-const words = ["Yo Yo", "Lighthouse", "Labs"];
-tail(words);
-assertEqual(words.length, 3);
+
+describe("#tail", () => {
+    it("returns ['Yo Yo' ,'Lighthouse'] for ['Yo Yo','Lighthouse', 'Labs']", () => {
+        const words = ['Yo Yo', 'Lighthouse', 'Labs'];
+        assert.deepEqual(tail(words),['Yo Yo', 'Lighthouse']);
+      });
+  
+  });
