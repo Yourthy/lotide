@@ -1,13 +1,15 @@
 {
-  "name": "lotide",
+  "name": "yourthy/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lotide Lighthouse-Labs mini clone of Lodash (Designed for Training Purposes ONLY) Package,
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "my-package": "0.0.0",
+    "pwd": "^1.1.0"
   },
   "devDependencies": {
     "mocha": "^8.2.1"
